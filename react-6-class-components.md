@@ -54,7 +54,7 @@ const ClockComponent = new Clock();
 
 const location = document.getElementById('root');
 
-React.DOM.render(<ClockComponent/>, location)
+ReactDOM.render(<ClockComponent/>, location)
 ```
 ---
 
@@ -67,7 +67,7 @@ const ClockComponent = new Clock();
 
 const location = document.getElementById('root');
 
-React.DOM.render(<ClockComponent locale="bn-BD"/>, location)
+ReactDOM.render(<ClockComponent locale="bn-BD"/>, location)
 ```
 
 JSX er niyom onujai *locale* ta *props* nakom obj er moddhe thakar kotha.
