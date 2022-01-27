@@ -126,3 +126,19 @@ class Clock extends React.Component {
 - tokhn DOM a thaka current component gula k **unmount** kora lage
 - unmount na korle oi components gula unnecessarily theke jabe
 - ei method, unmount howar aag muhurte call hoy
+
+---
+
+## shouldComponentUpdate(nextProps, nextState) :
+
+- eta class comp er ekta **life-cycle method**
+- eta component **re-render** howar thik aag muhurte call hoy
+- `nextProps` - porer baar render howar time er props
+- `nextState` - porer baar render howar time er state
+- amra *current* props er shathe *next* props compare kore decision nibo j re-render kora lagbe kina
+- othoba *current* <u>state</u> er shathe *next* <u>state</u> compare korte pari
+
+<br>
+
+- eta `true` return kole re-render hobe
+- `false` return korle re-render *hobe na*

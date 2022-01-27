@@ -23,7 +23,7 @@ so amra chaile **constructor()** na likhe ek line a *state* initialize korte par
 ```js
 class Clock extends React.Component {
 
-    this.state = {date: new Date()};
+    state = {date: new Date()};
 
     render() {
         // code for rendering elements
