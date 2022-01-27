@@ -18,7 +18,7 @@ dom element is not an object, it's just a *node*
 
 ```js
     element = {
-        type: 'h1'
+        type: 'h1',
         props: {
             children : 'hello world'
         }
@@ -62,11 +62,11 @@ const element_1 = (
 
 
 
-uporer **element_1** takey amra eroko mekta obj hishebe chinta korte parii
+uporer **element_1** takey amra erokom ekta obj hishebe chinta korte parii
 
 ```js
     element_1 = {
-        type: 'h1'
+        type: 'h1',
         props: {
             className: 'heading',
             tabIndex: 0,
@@ -93,12 +93,12 @@ this piece of code converts into:
 
 ```js
     element_2 = {
-        type: 'h1'
+        type: 'h1',
         props: 
         {
             className: 'heading',
             tabIndex: 0,
-            children : 
+            children :
             [
                 // for span tag
                 {
